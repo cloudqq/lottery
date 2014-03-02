@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  	 <!-- 中间动态加载View -->                                                                                                                                                                                     
+    <FrameLayout android:id="@+id/containerBody"                                                                                                                                                                  
+                 android:layout_width="fill_parent"                                                                                                                                                               
+                 android:layout_height="0.0dip"                                                                                                                                                                   
+                 android:layout_weight="1.0">
+    </FrameLayout>                                                                                                                                                                    
+                                                                                                                                                                                                                  
+    <LinearLayout android:background="@android:color/white"                                                                                                                                                       
+        android:layout_gravity="bottom" android:orientation="horizontal"                                                                                                                                          
+        android:layout_width="fill_parent" android:layout_height="wrap_content">    
+                                                                                                                                      
+        <!-- 彩票大厅 -->                                                                                                                                                                                    
+        <ImageView android:id="@+id/btn_hall" android:src="@android:drawable/ic_btn_speak_now"                                                                                                                  
+            android:layout_marginLeft="7dp" android:layout_marginTop="3dp"                                                                                                                                        
+            android:layout_marginBottom="3dp" android:layout_width="wrap_content"                                                                                                                                 
+            android:layout_height="wrap_content" />                                                                                                                                                               
+       
+        <!-- 我的彩票 -->         
+        <ImageView android:id="@+id/btn_mine" android:src="@android:drawable/ic_dialog_info"                                                                                                                    
+            android:layout_marginLeft="7dp" android:layout_marginTop="3dp"                                                                                                                                        
+            android:layout_marginBottom="3dp" android:layout_width="wrap_content"                                                                                                                                 
+            android:layout_height="wrap_content" />                                                                                                                                                               
+       
+        <!-- 更多功能 -->            
+        <ImageView android:id="@+id/btn_more" android:src="@android:drawable/ic_dialog_alert"                                                                                                                   
+            android:layout_marginLeft="7dp" android:layout_marginTop="3dp"                                                                                                                                        
+            android:layout_marginBottom="3dp" android:layout_width="wrap_content"                                                                                                                                 
+            android:layout_height="wrap_content" />   
+        
+        <ImageView android:id="@+id/btn_test_network" android:src="@android:drawable/ic_dialog_map"                                                                                                                   
+            android:layout_marginLeft="7dp" android:layout_marginTop="3dp"                                                                                                                                        
+            android:layout_marginBottom="3dp" android:layout_width="wrap_content"                                                                                                                                 
+            android:layout_height="wrap_content" />   
+        
+        
+  </LinearLayout>
+</LinearLayout>

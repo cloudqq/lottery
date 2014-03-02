@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, LotteryActivity!</string>
+    <string name="app_name">Lottery</string>
+    <string name="group_buy">合买</string>
+    <string name="bet_buy">投注</string>
+</resources>

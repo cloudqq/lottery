@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lotteries>
+	<lottery name="双色球" space="com.biying.lottery.components.towcolor" cls="TowColor">
+		<lotteryMode name="普通" cls="TowColorNormalMode">
+			<ballGroup name="红" cls="TowColorBallGroup" ballLength="32" minBalls="6" maxBalls="32"/>
+			<ballGroup name="蓝" cls="TowColorBallGroup" ballLength="16" minBalls="1" maxBalls="16"/>
+		</lotteryMode>
+		<lotteryMode name="拖胆" cls="TwoColorCourageMode">
+			<ballGroup name="胆" cls="TowColorBallGroup" ballLength="32" minBalls="1" maxBalls="5"/>
+			<ballGroup name="拖" cls="TowColorBallGroup" ballLength="16" minBalls="2" maxBalls="16"/>
+			<ballGroup name="蓝" cls="TowColorBallGroup" ballLength="16" minBalls="1" maxBalls="16"/>
+		</lotteryMode>
+	</lottery>
+</lotteries>
